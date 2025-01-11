@@ -10,6 +10,12 @@ Use o comando abaixo no terminal para que seja intalado todas as dependências n
 npm install
 ```
 
+### Navegando pelos componentes
+use o comando abaixo para inicializar o projeto e navegar pelos componentes
+```bash
+npm run dev
+```
+
 ### Realizando os testes
 Há três componentes simples, segue abaixo o código para testa-los
 
