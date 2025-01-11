@@ -1,0 +1,9 @@
+.Nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Nav a{
+    font-size: 1.5em;
+}

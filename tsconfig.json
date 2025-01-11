@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+
+  "compilerOptions": {
+    "jsx": "react-jsx",          // Permite o uso de JSX no projeto
+    "esModuleInterop": true,     // Resolve problemas de compatibilidade com imports
+    "module": "esnext",          // Usa o sistema de módulos ESNext
+    "target": "esnext",          // Define a versão do ECMAScript como alvo
+    "moduleResolution": "node", // Resolve módulos de forma compatível com Node.js
+    "strict": true,              // Habilita verificações mais rigorosas
+    "baseUrl": "./",             // Permite a configuração de paths relativos
+    "paths": {
+      "@/*": ["src/*"]           // Configuração de aliases (opcional)
+    }
+  }
+}
+
+
